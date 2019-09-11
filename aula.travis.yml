@@ -1,0 +1,9 @@
+# Travis-CI
+language: python
+python:
+  -"3.4"
+before_script:
+ - cs src
+script:
+  -python testes.py
+  
