@@ -10,5 +10,8 @@ def inicializar():
 def main():
 	jogo = inicializar()
 	print(jogo)
+
+	
 if __name__ == "__main__":
 	main()
+
